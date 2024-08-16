@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       <nav>
+        <div class="left">
+            <div class="image">
+                <img src="./image/logo.png" alt="">
+            </div>
+            <div class="menu">
+                 <p>My Orders</p>
+                 <p>Services</p>
+                 <p>Help</p>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">
+                <i class="fa-solid fa-bolt"></i>
+                <p>URGENT</p>
+            </button>
+            <div class="profile">
+                <img src="./image/Oval (1).png" alt="">
+                <p>Elon Musk</p>
+            </div>
+            <div class="flag">
+                <img src="./image/Flag 1 1.png" alt="">
+            </div>
+        </div>
+       </nav>
+       <main>
+        <h1>All Pros</h1>
+       </main>
+       <section>
+        <div class="left-sec">
+            <div class="filter">
+                <h3>Filters</h3>
+                <div class="top">
+                    <input type="checkbox" id="check" >
+                    <p>Top pros</p>
+                </div>
+                <div class="new">
+                    <input type="checkbox" id="newpro">
+                    <p>New Pros</p>
+                </div>
+                <div class="supervisor">
+                    <input type="checkbox" id="supervisor">
+                    <p>Supervisor</p>
+                </div>
+                <div class="pros">
+                    <input type="checkbox" id="pros">
+                    <p>Pros</p>
+                </div>
+            </div>
+            <div class="sorting">
+                <h3>Sorting</h3>
+                <div class="rating">
+                    <p>By Rating</p>
+                    <select id="ratingSelect">
+                        <option>Increasing</option>
+                        <option>Decreasing</option>
+                    </select>
+                </div>
+                <div class="count">
+                    <p>By Tasks Count</p>
+                    <select id="select">
+                        <option>Increasing</option>
+                        <option>Decreasing</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="right-sec">
+            <!-- <div class="box">
+                <div class="box-head">
+                    <div class="img">
+                        <img src="./image/Oval (1).png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="info-head">
+                            <h4>Elon Musk (elektrikçi)</h4>
+                        </div>
+                        <div class="info-end">
+                            <img src="./image/Group 2704.png" alt="">
+                            <h5 id="rating">4.5</h5>
+                            <h5 id="count">(24)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-main">
+                    <div class="icon">
+                        <div class="tik">
+                            <img src="./image/Group 26286.png" alt="">
+                            <p>987 Tasks</p>
+                        </div>
+                        <div class="hashtag">
+                            <img src="./image/Hashtag.png" alt="">
+                            <p>Top Pro</p>
+                        </div>
+                        <div class="heart">
+                            <img src="./image/Heart.png" alt="">
+                            <p>New Pro</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Hi! I am Rasim. Professional plumber and furniture worker in Ikea. I can help you with all furniture tasks.</p>
+                    </div>
+                </div>
+                <div class="box-end">
+                    <div class="view">
+                        <p>View Profile</p>
+                    </div>
+                    <div class="price">
+                        <p>$35</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <div class="img">
+                        <img src="./image/Oval (1).png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="info-head">
+                            <h4>Elon Musk (elektrikçi)</h4>
+                        </div>
+                        <div class="info-end">
+                            <img src="./image/Group 2704.png" alt="">
+                            <h5 id="rating">4.5</h5>
+                            <h5 id="count">(24)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-main">
+                    <div class="icon">
+                        <div class="tik">
+                            <img src="./image/Group 26286.png" alt="">
+                            <p>987 Tasks</p>
+                        </div>
+                        <div class="hashtag">
+                            <img src="./image/Hashtag.png" alt="">
+                            <p>Top Pro</p>
+                        </div>
+                        <div class="heart">
+                            <img src="./image/Heart.png" alt="">
+                            <p>New Pro</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Hi! I am Rasim. Professional plumber and furniture worker in Ikea. I can help you with all furniture tasks.</p>
+                    </div>
+                </div>
+                <div class="box-end">
+                    <div class="view">
+                        <p>View Profile</p>
+                    </div>
+                    <div class="price">
+                        <p>$35</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <div class="img">
+                        <img src="./image/Oval (1).png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="info-head">
+                            <h4>Elon Musk (elektrikçi)</h4>
+                        </div>
+                        <div class="info-end">
+                            <img src="./image/Group 2704.png" alt="">
+                            <h5 id="rating">4.5</h5>
+                            <h5 id="count">(24)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-main">
+                    <div class="icon">
+                        <div class="tik">
+                            <img src="./image/Group 26286.png" alt="">
+                            <p>987 Tasks</p>
+                        </div>
+                        <div class="hashtag">
+                            <img src="./image/Hashtag.png" alt="">
+                            <p>Top Pro</p>
+                        </div>
+                        <div class="heart">
+                            <img src="./image/Heart.png" alt="">
+                            <p>New Pro</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Hi! I am Rasim. Professional plumber and furniture worker in Ikea. I can help you with all furniture tasks.</p>
+                    </div>
+                </div>
+                <div class="box-end">
+                    <div class="view">
+                        <p>View Profile</p>
+                    </div>
+                    <div class="price">
+                        <p>$35</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <div class="img">
+                        <img src="./image/Oval (1).png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="info-head">
+                            <h4>Elon Musk (elektrikçi)</h4>
+                        </div>
+                        <div class="info-end">
+                            <img src="./image/Group 2704.png" alt="">
+                            <h5 id="rating">4.5</h5>
+                            <h5 id="count">(24)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-main">
+                    <div class="icon">
+                        <div class="tik">
+                            <img src="./image/Group 26286.png" alt="">
+                            <p>987 Tasks</p>
+                        </div>
+                        <div class="hashtag">
+                            <img src="./image/Hashtag.png" alt="">
+                            <p>Top Pro</p>
+                        </div>
+                        <div class="heart">
+                            <img src="./image/Heart.png" alt="">
+                            <p>New Pro</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Hi! I am Rasim. Professional plumber and furniture worker in Ikea. I can help you with all furniture tasks.</p>
+                    </div>
+                </div>
+                <div class="box-end">
+                    <div class="view">
+                        <p>View Profile</p>
+                    </div>
+                    <div class="price">
+                        <p>$35</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+       </section>
+       <div class="about">
+        <div class="about-left">
+            <img src="./image/iphone-12-mini--black.png" alt="">
+        </div>
+        <div class="about-right">
+            <h2>Download the izzi mobile app</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took</p>
+            <div id="img">
+                <img src="./image/image 14.png" alt="">
+                <img src="./image/image 13.png" alt="">
+            </div>
+        </div>
+       </div>
+       <footer>
+        <div class="footer-start">
+            <div id="logo">
+                <img src="./image/logo.png" alt="">
+                <p>izzi is the major platform in Azerbaijan to request help from taskers</p>
+            </div>
+            <div id="contact">
+                <p>izzi Ltd.</p>
+                <p>Location adres</p>
+                <p>info@izzi.com</p>
+                <p>+994 (50) XX XXXX</p>
+                <p>NR21465161</p>
+            </div>
+            <div id="book">
+                <p>Book a service</p>
+                <p>Browse Services</p>
+                <p>Find Taskers</p>
+                <p>How does it work?</p>
+            </div>
+            <div id="links">
+                <p>Extra links</p>
+                <p>About us</p>
+                <p>FAQ</p>
+                <p>Contact us</p>
+                <p>Become a Task</p>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div id="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div id="privacy">
+                <p>izzi Ltd. 2021</p>
+                <p>Privacy Policy</p>
+                <p>Terms and conditions</p>
+            </div>
+        </div>
+       </footer>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

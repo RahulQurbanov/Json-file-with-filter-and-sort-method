@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+nav{
+    padding: 20px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.right,.menu{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
+}
+.profile,.btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+i{
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: #5920BC;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #5920BC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main{
+    background-image: url(./image/head\ bg.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    left: 125px;
+    bottom: 30px;
+}
+h3{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+section{
+    display: flex;
+    gap: 75px;
+}
+.box{
+    width: 350px;
+    /* background-color: brown; */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #C7C9CB;
+}
+.left-sec{
+    margin-top: 75px;
+    padding-left: 125px;
+}
+.right-sec{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 25px;
+   margin-top: 20px;
+}
+.top,.new,.supervisor,.pros{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+select{
+    width: 140px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.sorting p{
+    margin-bottom: 5px;
+}
+.rating{
+    margin-bottom: 20px;
+}
+.box-head,.info-end{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#rating{
+    color: yellow;
+}
+#count{
+    color: gray;
+}
+.tik,.heart,.hashtag{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin:10px 0;
+}
+.text p{
+    font-size: .8rem;
+    color: gray;
+    width: 270px;
+}
+.box-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #5920BC;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.price p{
+    background-color: #c7c9cb5c;
+    padding: 10px;
+    border-radius: 5px;
+}
+.price button{
+    color: #5920BC;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #C7C9CB;
+    cursor: pointer;
+}
+.view p{
+    font-size: .8rem;
+}
+.about{
+    background-image: url(./image/head\ bg.png);
+    background-repeat: no-repeat;
+    height: 270px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 55px; */
+    margin-top: 45px;
+}
+.about-left img{
+    position: absolute;
+    bottom: 0;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about-right #img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.about-right p{
+    width: 400px;
+    font-size: .8rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 45px;
+}
+.footer-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 135px;
+    margin-top: 30px;
+    color:#222222;
+}
+#logo,#contact,#links,#book{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#logo img{
+    width: 55px;
+}
+#logo p{
+    width: 200px;
+}
+#logo,#book{
+    margin-bottom: 25px;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#icon i{
+    color: gray;
+}
+.footer-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 475px;
+    border-top: 1px solid #C7C9CB;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+#privacy{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.img img{
+    width: 55px;
+    border-radius: 999px;
+}
